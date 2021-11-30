@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;900&family=Roboto:wght@100;400;700&display=swap");
+
+/*
+1. Variables
+2. RESET
+3. Blocks
+4. Inline
+5. ID
+6. Classes
+*/
+
+/* Variables */
+
+:root {
+    --body: #2b303aff;
+    --secondary: #918b76ff;
+    --third: #5cc8ffff;
+    --highlight: #23f0c7ff;
+    --white: #fffcffff;
+    --font: "Montserrat", sans-serif;
+    --titleFont: "Roboto", sans-serif;
+}
+
+/* 2 RESET */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+    isolation: isolate;
+}
+
+/* 3 Block */
+/* 4 inline */
+/* 5 ID */
+/* 6 Classes */
